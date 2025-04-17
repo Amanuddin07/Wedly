@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU+Guides&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary-color1: #FADADD;
+  /* - For backgrounds, buttons, and subtle highlights.  
+   - Evokes romance and warmth. */
+  --primary-color2: #D4AF8E;
+  /* - For accents, headings, and borders.  
+   - Adds a touch of luxury and sophistication. */
+
+  --secondery-color1: #8B7E74;
+  /* - For secondary buttons, hover effects, or card backgrounds.  
+   - Gives a neutral yet classy look. */
+  --secondery-color2: #2F2F2F;
+  /* - For text (especially body text).  
+   - Ensures readability while maintaining elegance. */
+
+  --Accent-Color: #A3B18A;
+  /* - For small decorative elements, links, or icons.  
+   - Provides a refreshing contrast while staying soft. */
+  --Neutral-Colors1: #e7fcb2;
+  /* - For main backgrounds.  
+   - Keeps the design clean, airy, and elegant. */
+  --Neutral-Colors2: #E8E8E8;
+  /* - For section dividers or subtle backgrounds.  
+   - Maintains the minimal aesthetic. */
+  --pink-color: #ff5bc8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+.navbar-brand {
+  color: var(--secondery-color2) !important;
+  font-size: 35px !important;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.navbar-toggler i {
+  color: var(--secondery-color2);
+  font-size: 25px;
+}
+
+.nav-link {
+  color: var(--secondery-color2);
+  font-size: 18px;
+  transition: .2s;
+}
+
+.nav-link:hover {
+  /* color: #08b4d2; */
+  /* color: rgb(128, 128, 255); */
+  color: #8B5DFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hero {
+  width: 100%;
+  height: auto;
+  padding: 180px 0 400px 0;
+  background-image: linear-gradient(360deg, rgb(0, 0, 0, 0.3), transparent), url(../images/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-content: center;
+  align-self: center;
+
+}
+
+.content {
+  width: 100%;
+  height: auto;
+}
+
+.content h1 {
+  padding-top: 5%;
+  font-size: 4rem;
+  color: #fff;
+
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: var(--secondery-color2);
+}
+
+
+.btn-book {
+  font-size: 18px;
+  color: black;
+  background-color: transparent;
+  outline: none;
+  /* border: ; */
+  transition: all .3s !important;
+}
+
+.btn-book:hover {
+  /* background-color: #ff5bc8; */
+  /* background-color: rgb(136, 136, 255); */
+  background-color: #fff;
+  color: #2F2F2F;
+  border: 1px solid #fff;
+  /* color: #2F2F2F; */
+}
+
+
+#hero-form {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 30px 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  /* margin-bottom: 10px; */
+  font-size: 15px;
+  padding: 10px 15px;
+  outline: none;
+  transition: all 0.3s;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.53);
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 1px solid #8B5DFF;
+}
+
+label span {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#portfolio {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: rgba(219, 219, 219, 0.20) !important;
+}
+
+#portfolio h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--secondery-color2);
+}
+
+
+
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: all .3s;
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card-title a,
+.card-tile a {
+  color: var(--secondery-color2);
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.card-title a:hover,
+.card-tile a:hover {
+  color: #8B5DFF;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#packages {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+
+#packages h2 {
+  font-weight: 700;
+  color: var(--secondery-color2);
+}
+
+.card {
+  border-radius: 10px;
+  /* height: 24.5rem; */
+}
+
+
+#packages .card-title {
+  /* background-color: #ff5bc8; */
+  background-color: #3E5879;
+  padding: 7px 0;
+}
+
+.card-title h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#packages .card-title p {
+  color: #fff;
+}
+
+
+.package-cta p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pkg-btn {
+  background-color: #3E5879;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: rgba(219, 219, 219, 0.20) !important;
+}
+
+#about .heading h2 {
+  font-weight: 700;
+  color: var(--secondery-color2);
+}
+
+#about .left {
+  width: 100%;
+  height: auto;
+
+}
+
+#about .left img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#about .right h3 {
+  font-weight: 600;
+}
+
+.about-btn {
+  color: #fff;
+}
+
+.about-btn:hover {
+  background-color: #3E5879;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#testimonials {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  /* background-color: var(--primary-color1); */
+}
+
+#testimonials .heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--secondery-color2);
+}
+
+
+.slider .image {
+  width: 100%;
+  height: auto;
+}
+
+.slider .image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+
+.slider .details p {
+  font-size: 20px;
+}
+
+.slider .details h4 {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: rgba(219, 219, 219, 0.20);
+}
+
+#contact .heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--secondery-color2);
+}
+
+#contact .contact-info {
+  background-color: #3E5879;
+  border-radius: 10px;
+}
+
+#contact .card-header h3 {
+  color: #fff;
+}
+
+
+.location h5 {
+  color: #fff;
+}
+
+.location p {
+  color: #fff;
+}
+
+
+.icon i {
+  color: #fff;
+  font-size: 22px;
+  padding: 15px 20px;
+  background-color: #5c6776cb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.location:hover .icon {
+  transform: scale(1.1);
+}
+
+.map {
+  width: 100%;
+  overflow: hidden;
+  height: 335px;
+}
+
+
+
+
+.contact-frm {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 10, 5, 0.20);
+}
+
+
+#contact-form label {
+  font-size: 15px;
+}
+
+input[type="date"] {
+  font-size: 15px;
+  padding: 7px 10px;
+  outline: none;
+  transition: all 0.3s;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.53);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 15px;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(128, 128, 128, 0.53);
+}
+
+.frm-btn button {
+  border: none;
+}
+
+.frm-btn button:hover {
+  background-color: #3E5879;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  background-color: #3E5879;
+}
+
+
+footer .logo {
+  color: #fff;
+  font-style: italic;
+}
+
+footer .logo a {
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+footer .logo a:hover {
+  color: #f6ff91;
+  transform: translateX(-10px);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.footer-nav ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(203, 203, 203);
+  transition: all 0.3s;
+}
+
+.footer-nav ul li a:hover {
+  /* color: #b192ff; */
+  color: #f6ff91;
+}
+
+
+.footer-links ol li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(203, 203, 203);
+  transition: all 0.3s;
+}
+
+.footer-links ol li a:hover {
+  color: #f6ff91;
+}
+
+
+
+.footer-social ul li a {
+  font-size: 20px;
+  margin-right: 15px;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  background-color: none;
+  border: 1px solid rgba(128, 128, 128, 0.771);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.footer-social ul li a:hover {
+  color: #f6ff91;
+  border: 1px solid #f6ff91;
+}
+
+
+.credit p {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.credit p span {
+  color: #f6ff91;
+}

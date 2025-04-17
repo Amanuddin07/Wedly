@@ -1,0 +1,130 @@
+Here’s a color palette designed to evoke elegance, romance, and warmth — perfect for a wedding photography website:
+
+---
+
+### **Primary Colors**  
+1. **Soft Blush Pink (#FADADD)**  
+   - For backgrounds, buttons, and subtle highlights.  
+   - Evokes romance and warmth.
+
+2. **Elegant Champagne Gold (#D4AF8E)**  
+   - For accents, headings, and borders.  
+   - Adds a touch of luxury and sophistication.
+
+---
+
+### **Secondary Colors**  
+1. **Warm Taupe (#8B7E74)**  
+   - For secondary buttons, hover effects, or card backgrounds.  
+   - Gives a neutral yet classy look.  
+   
+2. **Deep Slate Gray (#2F2F2F)**  
+   - For text (especially body text).  
+   - Ensures readability while maintaining elegance.
+
+---
+
+### **Accent Color**  
+1. **Muted Olive Green (#A3B18A)**  
+   - For small decorative elements, links, or icons.  
+   - Provides a refreshing contrast while staying soft.
+
+---
+
+### **Neutral Colors**  
+1. **Ivory White (#FFFFF0)**  
+   - For main backgrounds.  
+   - Keeps the design clean, airy, and elegant.  
+   
+2. **Soft Stone Gray (#E8E8E8)**  
+   - For section dividers or subtle backgrounds.  
+   - Maintains the minimal aesthetic.
+
+---
+
+### **Usage Tips**  
+1. **Primary Color Usage:** Use blush pink for hero sections, buttons, and key highlights.  
+2. **Accent Color Usage:** Use champagne gold sparingly for elegant accents, such as icons, separators, and headings.  
+3. **Neutral Colors:** Use ivory white as the main background color to maintain a light, airy feel. Stone gray can be used for subtle dividers or secondary backgrounds.  
+4. **Typography Colors:**  
+   - Use deep slate gray for all primary text.  
+   - Consider using the taupe shade for headings to add warmth.
+
+---
+
+Would you like a visual mockup of how this palette would look in a layout?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s a more minimalistic and stylish color palette, focusing on modern elegance and simplicity:
+
+---
+
+### **Primary Colors**  
+1. **Soft Off-White (#FAFAFA)**  
+   - For main backgrounds.  
+   - Creates a clean, bright, and airy feel.  
+
+2. **Charcoal Gray (#333333)**  
+   - For primary text, titles, and logos.  
+   - Ensures strong readability with a sleek, modern look.
+
+---
+
+### **Accent Colors**  
+1. **Muted Sand Beige (#D9CBB8)**  
+   - For buttons, hover states, and section highlights.  
+   - Adds a subtle warmth without overpowering the minimal aesthetic.
+
+2. **Slate Blue Gray (#788492)**  
+   - For links, subtle details, or dividers.  
+   - Brings in a cool tone for balance and contrast.
+
+---
+
+### **Neutral Colors**  
+1. **Pure White (#FFFFFF)**  
+   - For secondary backgrounds and empty space.  
+   - Enhances the minimalist design by providing contrast.  
+
+2. **Light Silver Gray (#E6E6E6)**  
+   - For section dividers, borders, or subtle backgrounds.  
+   - Keeps the design sleek without being distracting.
+
+---
+
+### **Usage Tips**  
+1. **Primary Color Usage:** Use off-white as the main background to maintain a minimalistic look.  
+2. **Accent Color Usage:** Use muted sand beige sparingly for buttons, highlights, or hover states. Use slate blue gray for links or small decorative elements.  
+3. **Typography Colors:**  
+   - Charcoal gray for main text and headings.  
+   - Light silver gray for subtle text like captions or metadata.
+
+---
+
+Would you like me to create a design sample or a CSS style guide with this palette?

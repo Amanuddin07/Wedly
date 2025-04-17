@@ -1,0 +1,89 @@
+@media only screen and (min-width : 768px) and (max-width : 990px) {
+
+    .card-body{
+        text-align: center;
+    }
+
+
+    #about .right{
+        text-align: center;
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 450px) {
+    #hero{
+        padding: 140px 0 300px 0;
+    }
+   #hero .content h1{
+    font-size: 3rem;
+    padding-top: 0%;
+   }
+
+   #hero .content p{
+    font-size: 1.3rem;
+   }
+
+
+
+
+
+   #about .right{
+    text-align: center;
+   }
+
+
+
+
+
+
+   .slider .image img{
+    width: 250px;
+    height: 250px;
+   }
+
+   .slider .details p{
+    font-size: 15px;
+  }
+
+
+
+
+
+
+
+
+  .icon i{
+    font-size: 22px;
+    padding: 20px;
+    background-color: #5c6776cb;
+    border-radius: 50%;
+  }
+
+  .location h5{
+    font-size: 18px;
+  }
+  .location p{
+    font-size: 14px;
+  }
+
+  .footer-social ul li a{
+    font-size: 18px;
+    margin-right: 15px;
+    padding: 17px;
+  }
+}
